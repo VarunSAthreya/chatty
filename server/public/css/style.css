@@ -112,6 +112,10 @@ a {
 	color: #777;
 }
 
+.chat-messages .message .text  {
+	overflow: scroll;
+}
+
 .chat-form-container {
 	padding: 20px 30px;
 	background-color: var(--dark-color-a);
@@ -120,6 +124,8 @@ a {
 .chat-form-container form {
 	display: flex;
 }
+
+
 
 .chat-form-container input[type='text'] {
 	font-size: 16px;
@@ -186,6 +192,12 @@ a {
 	}
 
 	.chat-sidebar {
+		display: none;
+	}
+}
+
+@media (max-width: 400px) {
+	.chat-form-container button em{
 		display: none;
 	}
 }
