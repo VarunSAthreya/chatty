@@ -1,4 +1,4 @@
-# Chatty
+# [Chatty](https://chatty-messengerapp.herokuapp.com/)
 
 Chatty is a simple realtime chat application.
 Developed using [Socket.io](http://socket.io/) and [ExpressJS](http://expressjs.com/).
